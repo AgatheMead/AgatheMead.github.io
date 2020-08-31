@@ -29,10 +29,12 @@ More than 20 years ago, two Standford computer science candidates, named Sergey 
 A hyperlink consists of two simple parts: 
 * Uniform Resource Locator (URL): address of the web page and is hidden under the hypertext
 * Anchor text: is visible to users in the browser window, can be text, graphics, etc.
+
 Linking Page URL | Achor Text
 ---------------- | -----------
 Hyperlink        | Hypertext
 `<a href="http://YOUR_WEB_PAGE_ADDRESS"> | YOUR_WEB_PAGE_ANCHOR_TEXT</a>`
+
 Brin and Page realized that the hyperlink graph of the web is an important resource and has gone unused in existing dominated web search engines. The idea was inspired by the "citation factor" of published papers. That is, by looking at the citation number that other papers referencing them. 
 Format: ![High Level Google Architecture from Brin and Larry's paper](https://www.researchgate.net/profile/Nureni_Azeez/publication/255644944/figure/fig1/AS:285567700615168@1445096053801/High-Level-Google-Architecture.png)
 You can infer from this figure that PageRank was not the sole factor for sorting the search results, it works with other text-matching techniques for search queries. The ranks score is computed at indexing time and not at query time. So we say PagaRank a query-independent algorithm.
@@ -44,7 +46,7 @@ Long story short, Google accounts for three factors in its PageRank algorithm, w
 The algorithm ranks pages from 0-10. Normally it was believed that a Google PageRank of 5 is enough for your site to show on the first page of search results. 
 
 ### Google Retired the PageRank Toolbar
-Format: ![Google Toolbar PageRank](https://cdn.cognitiveseo.com/blog/wp-content/uploads/2018/05/Google-toolbar-pagerank.jpg)
+![Google Toolbar PageRank](https://cdn.cognitiveseo.com/blog/wp-content/uploads/2018/05/Google-toolbar-pagerank.jpg)
 Things went well in the beginning, everyone can check PageRank for their website and compare their website to others. The rules of PageRank were loose. In theory, as long as people know the ranking mechanism, they will continue to be manipulated, which eventually leading to link spam. Toolbar PagaRank score has long been seemed as the most useful factor of SEOs because it was the only visible gauge for users.
 
 PageRank was officially axed from Google Toolbar in 2016 after the launch of Chrome. This move was basically due to the the buying and selling of ‘high PageRank links’ which eventually damage the ‘true’ PageRank of a webpage. As the Internet and our understanding of the Internet have grown in complexity, people should stop considering Toolbar PageRank score as a single isolated metric. Matt Cutts gave an answer in 2013 to the question 'Why don't you turn off the PageRank feature in the Google Toolbar?', saying that they wanted to stop spammers that used PageRank as a way to spread misleading information. 
@@ -60,13 +62,13 @@ In mathematics, graph theory is used to model the relations between pair-wise ob
 * A graph is made up of vertices and edges. 
 * A graph may be undirected, meaning that there is no distinction between two vectices associated with each edge, or its edges may be directed from one vertex to another vertex.
 
-Format: ![Figure from Graph Theory concepts for Layman - AnKur's Blog](https://datafreakankur.com/wp-content/uploads/2018/12/image-37.png)
-Format: ![Figure from Graph Theory concepts for Layman - AnKur's Blog](https://datafreakankur.com/wp-content/uploads/2018/12/image-39.png)
+![Figure from Graph Theory concepts for Layman - AnKur's Blog](https://datafreakankur.com/wp-content/uploads/2018/12/image-37.png)
+![Figure from Graph Theory concepts for Layman - AnKur's Blog](https://datafreakankur.com/wp-content/uploads/2018/12/image-39.png)
 
 ### Understanding how PageRank is relative to graph theory
 For web users, a search engine serves as the user interface that accepts queries and returns the search results. So how PageRank algorithm is relative to graph? Graph theory can model how information spreads within a graph, and this is insteresting for information retrieval systems.
 In a directed graph, there are two types of 'importance': authority (pointed to by incoming vertices) and hub (with outgoing vertices), similar to 'fans' and 'centers', which are metrics to measure the node influence. 
-Format: ![An authoritive web page is pointed to by many hub pages.](https://sentinelvisualizer.com/SocialNetworkAnalysis/SocialNetworkAnalysis_HubAuthority.gif)
+![An authoritive web page is pointed to by many hub pages.](https://sentinelvisualizer.com/SocialNetworkAnalysis/SocialNetworkAnalysis_HubAuthority.gif)
 
 > **_NOTE:_** Definition of importance in PageRank: A page is importance if important pages link to it.
 
