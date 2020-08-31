@@ -4,9 +4,9 @@ title: PageRank - The Graph Theory-based Search Engine Optimization
 ---
 Discorvering knowledge from the web is one of the basic abilities of the most of us. I use Google a lot while I am drafting this. There are variety search engines and people use them to locate the web pages relevant to user queries. However, with the massive volume of information of every variety, and not being organized in any meaningful way, it is not that easy to sort through what we need. 
 Wrap up of our first course:
-  - ** PageRank ** for discovering the most important pages on the web
-  - ** Hubs and Authorities ** a more detailed evaluation of the importance of web pages
-  - ** Random Walks ** is the basic definition of PageRank
+  - **PageRank** for discovering the most important pages on the web
+  - **Hubs and Authorities** a more detailed evaluation of the importance of web pages
+  - **Random Walks** is the basic definition of PageRank
 
 ## A bit of the history
 ### Search engine optimization (SEO)
@@ -33,7 +33,7 @@ A hyperlink consists of two simple parts:
 Linking Page URL | Achor Text
 ---------------- | -----------
 Hyperlink        | Hypertext
-`<a href="http://YOUR_WEB_PAGE_ADDRESS"> | YOUR_WEB_PAGE_ANCHOR_TEXT</a>`
+'<a href="http://YOUR_WEB_PAGE_ADDRESS">' | 'YOUR_WEB_PAGE_ANCHOR_TEXT</a>'
 
 Brin and Page realized that the hyperlink graph of the web is an important resource and has gone unused in existing dominated web search engines. The idea was inspired by the "citation factor" of published papers. That is, by looking at the citation number that other papers referencing them. 
 Format: ![High Level Google Architecture from Brin and Larry's paper](https://www.researchgate.net/profile/Nureni_Azeez/publication/255644944/figure/fig1/AS:285567700615168@1445096053801/High-Level-Google-Architecture.png)
