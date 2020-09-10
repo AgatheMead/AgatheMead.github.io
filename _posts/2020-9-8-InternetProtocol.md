@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Packet Switching -  
+title: Packet Switching
 ---
 
 ## A bit of the history
-
-### Transmission Control Protocol (TCP) and Internet Protocol (IP)
 Media articles usually compare the Internet to the highway system because they both have rules to follow. For highway system, the streets and paths in local communities are usually unoccupied, while most of the traffic congestion occurs on major arteries. In the old days people were connected to the internet from institutions and congestions occurred at exchange points or on the unreliable trunks (when trunks went down). 
 Nowadays users connect to a shared access network with limited bandwidth. Users consume more incoming than outgoing bandwidth. Sometimes we are unaware of internet protocol, however it is very crucial because it keeps the entire network running so that information can travel across networks and arrive at the right destination.
+
+### Transmission Control Protocol (TCP) and Internet Protocol (IP)
 
 >> _http(s)_ is a kind of protocol. When you try to visit a webpage by clicking on its URL, the Internet Service Provider (ISP) looks up the domain name, locates the matching IP address, and sends it back. The web browser then sends a request to that returned IP address for what you are looking for.
 
